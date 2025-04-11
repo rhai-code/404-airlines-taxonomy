@@ -1,0 +1,66 @@
+version: 3
+created_by: Cedric Clyburn <cclyburn@redhat.com>
+domain: 404 Airlines Knowledge & Policies
+seed_examples:
+  - context: |
+      **Introduction and Scope**  
+      The 404 Airlines Check-In Policies document outlines the official procedures for passenger check-in. It covers online, mobile, and airport check-in processes, and is designed to streamline the check-in experience while ensuring compliance with all security and documentation requirements. This document applies to every flight and is used by airline staff including ground handling, customer service, and operations teams.
+    questions_and_answers:
+      - question: What is the primary purpose of the 404 Airlines Check-In Policies document?
+        answer: The document is designed to streamline the check-in process, reduce wait times, and ensure compliance with security and documentation requirements across all check-in channels.
+      - question: Who is the intended audience for these policies?
+        answer: The policies are intended for both passengers and internal airline teams such as customer service, ground handling, and operational staff.
+      - question: Which check-in channels are covered in the document?
+        answer: The document covers online, mobile, and airport check-in processes.
+
+  - context: |
+      **General Check-In Guidelines and Digital Procedures**  
+      The document specifies that check-in via online and mobile channels opens 24 hours before departure. It encourages passengers to use automated systems—either via the website or the mobile app—to verify flight details, select seats, and obtain a digital boarding pass. This approach minimizes delays and provides immediate confirmation of travel details.
+    questions_and_answers:
+      - question: When does online and mobile check-in typically open for a flight?
+        answer: Online and mobile check-in usually begins 24 hours prior to the scheduled departure.
+      - question: What are some benefits of using online or mobile check-in?
+        answer: Benefits include reduced waiting times at the airport, immediate verification of travel details, and a streamlined check-in process.
+      - question: What are the key steps involved in online check-in?
+        answer: The key steps include entering reservation details, verifying passenger and travel documentation, selecting seats, reviewing baggage details, and receiving a digital boarding pass.
+
+  - context: |
+      **Airport Check-In Procedures**  
+      For passengers who prefer or need in-person assistance, the document details airport check-in methods. At traditional counters, staff verify identification, issue boarding passes, and check any baggage. Self-service kiosks are also available, where passengers can quickly enter booking or passport details, select their seats, and generate a digital boarding pass before proceeding to baggage drop areas.
+    questions_and_answers:
+      - question: What are the two primary airport check-in options described in the policies?
+        answer: Passengers can choose between counter check-in, where they receive full personal assistance, and self-service kiosks for a faster automated process.
+      - question: What documents are required for counter check-in at the airport?
+        answer: Passengers must present valid identification, and for international flights, additional travel documents such as passports and visas are required.
+      - question: How do self-service kiosks assist the check-in process?
+        answer: Self-service kiosks allow passengers to quickly input booking details, select seats, and print or download a digital boarding pass, reducing wait times.
+
+  - context: |
+      **Special Assistance, Priority, and Document Requirements**  
+      The check-in policies include provisions for passengers needing special assistance, such as those with disabilities, medical conditions, or unaccompanied minors. Dedicated counters and priority lanes are available for first-class and frequent flyer members. In addition, the document specifies the need for valid, government-issued photo ID, and for international travel, a valid passport and any necessary visas.
+    questions_and_answers:
+      - question: Who can access priority check-in services according to the policy?
+        answer: Priority services are available for first-class, business-class passengers, frequent flyer members, and those who require special assistance.
+      - question: What identification must passengers present at check-in?
+        answer: Passengers must present a valid government-issued photo ID and, for international travel, a valid passport along with any required visas.
+      - question: What provisions are made for passengers requiring special assistance?
+        answer: The policy provides dedicated check-in counters, expedited services, and support for passengers with disabilities, medical conditions, or for unaccompanied minors.
+
+  - context: |
+      **Security, Compliance, and Handling Exceptions**  
+      The document integrates various security and compliance measures into the check-in process, such as mandatory presentation of boarding passes at security checkpoints and random baggage verifications. It also addresses procedures for handling exceptions, such as late check-in scenarios, technical difficulties, and documentation errors. In these cases, additional fees or manual intervention may be required, ensuring that any issues are promptly resolved.
+    questions_and_answers:
+      - question: What measures are in place to ensure security during the check-in process?
+        answer: Security measures include mandatory boarding pass verification at checkpoints, integration with TSA and ICAO standards, and random baggage checks.
+      - question: How are exceptions like late check-in or technical difficulties handled?
+        answer: In cases of late check-in or technical issues, passengers are directed to designated counters for assistance, and additional fees or manual checks may be applied.
+      - question: What should a passenger do if there is a discrepancy in their travel documents during check-in?
+        answer: The passenger should resolve the discrepancy with airline staff, who may halt the check-in process until proper verification is completed.
+
+document_outline: |
+  This document outlines the comprehensive check-in policies for 404 Airlines. It details procedures for online, mobile, and airport check-in processes, special assistance protocols, required documentation and identification, security measures, and the handling of exceptions. The policies are designed to ensure a smooth, efficient, and secure check-in experience.
+document:
+  repo: https://github.com/rhai-code/404-airlines-data
+  commit: 5ca9bb339b267da759dcc530b5003088b704af64
+  patterns:
+    - check-in-policies/*.md

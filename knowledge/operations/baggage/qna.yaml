@@ -1,0 +1,66 @@
+version: 3
+created_by: Cedric Clyburn <cclyburn@redhat.com>
+domain: 404 Airlines Knowledge & Policies
+seed_examples:
+  - context: |
+      **Introduction and Scope**  
+      The 404 Airlines Baggage Rules document is the official guide outlining all baggage-related policies and procedures. Its purpose is to provide clear guidelines for passengers and internal teams regarding baggage allowances, fee structures, and handling requirements. The document applies to all 404 Airlines flights and covers carry-on, checked, and special baggage items. It ensures consistency in handling, safety protocols, and regulatory compliance.
+    questions_and_answers:
+      - question: What is the purpose of the 404 Airlines Baggage Rules document?
+        answer: The document provides clear, official guidelines on baggage allowances, fee structures, and handling procedures for both passengers and internal teams.
+      - question: Who are the primary audiences for this document?
+        answer: The document is intended for passengers as well as internal teams such as customer service, ground handling, and flight operations.
+      - question: What is a key objective of the 404 Airlines Baggage Rules?
+        answer: A key objective is to ensure consistent baggage handling and regulatory compliance across the airline’s operations.
+
+  - context: |
+      **Carry-On Baggage Policy**  
+      Each passenger is permitted one piece of carry-on baggage with strict size and weight limits. The maximum allowed dimensions are 22 inches (length) x 14 inches (width) x 9 inches (height) and the total weight must not exceed 15 lbs (6.8 kg). Additionally, items such as liquids, gels, and sharp objects are subject to further restrictions to conform with international travel guidelines and security requirements.
+    questions_and_answers:
+      - question: What are the maximum dimensions for carry-on baggage on 404 Airlines?
+        answer: Carry-on baggage must not exceed 22 inches in length, 14 inches in width, and 9 inches in height.
+      - question: What is the weight limit for carry-on baggage?
+        answer: The total weight for carry-on baggage should not exceed 15 lbs (6.8 kg).
+      - question: Are there any restrictions on liquids in carry-on baggage?
+        answer: Yes, passengers cannot bring liquids or gels in containers larger than 3.4 ounces (100 ml) unless they comply with international travel guidelines.
+
+  - context: |
+      **Checked Baggage Policy**  
+      For checked baggage, each bag is permitted up to 50 lbs (23 kg) in weight. The size is restricted by the sum of length, width, and height not exceeding 62 inches (158 cm). Bags that exceed these dimensions or weight limits are considered oversized or overweight and will incur extra fees. The fee structure varies with fare type and route, and passengers should be aware of additional charges if their baggage exceeds the standard limits.
+    questions_and_answers:
+      - question: What is the maximum weight for standard checked baggage on 404 Airlines?
+        answer: Standard checked baggage must not exceed 50 lbs (23 kg) per bag.
+      - question: How is the size limit for checked baggage determined?
+        answer: The combined total of the bag’s length, width, and height should not exceed 62 inches (158 cm).
+      - question: What happens if a checked bag exceeds the standard size or weight limits?
+        answer: Bags that exceed these limits are subject to additional fees and must be processed using special handling procedures.
+
+  - context: |
+      **Special Baggage Items and Prohibited Items**  
+      Special baggage items include items such as sports equipment, musical instruments, and fragile or high-value items. Sports equipment and oversized musical instruments require pre-declaration, additional handling fees, and proper packaging. The document also lists prohibited items—including explosives, flammable materials, weapons, and hazardous chemicals—which cannot be transported in either carry-on or checked baggage due to security regulations.
+    questions_and_answers:
+      - question: What types of items are classified as special baggage items?
+        answer: Special baggage items include sports equipment, musical instruments, and fragile or high-value items.
+      - question: What are the requirements for musical instruments on board?
+        answer: Small musical instruments within the size limits may be carried on, whereas larger instruments must be checked and ideally transported in a hard case.
+      - question: Which items are prohibited from being carried on or checked?
+        answer: Prohibited items include explosives, flammable materials, weapons, and hazardous chemicals.
+
+  - context: |
+      **Baggage Handling, Reporting, and Regulatory Compliance**  
+      To ensure the safe handling of baggage, each checked bag receives a unique baggage tag, and all baggage undergoes rigorous screening including X-ray and explosive trace detection. In cases of delayed, damaged, or lost baggage, passengers are advised to report immediately at the baggage service counter, fill out a Property Irregularity Report (PIR), and retain all related documentation for claim processing. The document also outlines the importance of following national and international regulations, such as those from ICAO and IATA, to ensure safety and compliance.
+    questions_and_answers:
+      - question: How does 404 Airlines ensure the security of checked baggage?
+        answer: Every checked bag is tagged with a unique identifier and undergoes X-ray and explosive trace screening, with random inspections conducted to uphold security standards.
+      - question: What should a passenger do if their baggage is delayed, damaged, or lost?
+        answer: A passenger should report the issue immediately at the baggage service counter, fill out a Property Irregularity Report (PIR), and keep all related receipts and documentation for processing a claim.
+      - question: Which regulatory bodies' standards does 404 Airlines adhere to?
+        answer: 404 Airlines complies with regulations and guidelines from international bodies such as ICAO and IATA, as well as relevant national safety regulations.
+
+document_outline: |
+  This document provides comprehensive rules for managing baggage on 404 Airlines flights. It covers policies for carry-on and checked baggage, outlines special item handling, lists prohibited items, details the baggage screening and reporting processes, and highlights adherence to international regulations.
+document:
+  repo: https://github.com/rhai-code/404-airlines-data
+  commit: 8d4b9fa457c52d7e0c95faad5e40c3aab56da17c
+  patterns:
+    - baggage-rules/*.md
