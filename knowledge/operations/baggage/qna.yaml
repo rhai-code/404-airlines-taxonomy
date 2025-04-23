@@ -3,7 +3,7 @@ created_by: Cedric Clyburn <cclyburn@redhat.com>
 domain: 404 Airlines Knowledge & Policies
 seed_examples:
   - context: |
-      **Introduction and Scope**  
+      **Introduction and Scope**
       The 404 Airlines Baggage Rules document is the official guide outlining all baggage-related policies and procedures. Its purpose is to provide clear guidelines for passengers and internal teams regarding baggage allowances, fee structures, and handling requirements. The document applies to all 404 Airlines flights and covers carry-on, checked, and special baggage items. It ensures consistency in handling, safety protocols, and regulatory compliance.
     questions_and_answers:
       - question: What is the purpose of the 404 Airlines Baggage Rules document?
@@ -14,7 +14,7 @@ seed_examples:
         answer: A key objective is to ensure consistent baggage handling and regulatory compliance across the airline’s operations.
 
   - context: |
-      **Carry-On Baggage Policy**  
+      **Carry-On Baggage Policy**
       Each passenger is permitted one piece of carry-on baggage with strict size and weight limits. The maximum allowed dimensions are 22 inches (length) x 14 inches (width) x 9 inches (height) and the total weight must not exceed 15 lbs (6.8 kg). Additionally, items such as liquids, gels, and sharp objects are subject to further restrictions to conform with international travel guidelines and security requirements.
     questions_and_answers:
       - question: What are the maximum dimensions for carry-on baggage on 404 Airlines?
@@ -25,7 +25,7 @@ seed_examples:
         answer: Yes, passengers cannot bring liquids or gels in containers larger than 3.4 ounces (100 ml) unless they comply with international travel guidelines.
 
   - context: |
-      **Checked Baggage Policy**  
+      **Checked Baggage Policy**
       For checked baggage, each bag is permitted up to 50 lbs (23 kg) in weight. The size is restricted by the sum of length, width, and height not exceeding 62 inches (158 cm). Bags that exceed these dimensions or weight limits are considered oversized or overweight and will incur extra fees. The fee structure varies with fare type and route, and passengers should be aware of additional charges if their baggage exceeds the standard limits.
     questions_and_answers:
       - question: What is the maximum weight for standard checked baggage on 404 Airlines?
@@ -36,7 +36,7 @@ seed_examples:
         answer: Bags that exceed these limits are subject to additional fees and must be processed using special handling procedures.
 
   - context: |
-      **Special Baggage Items and Prohibited Items**  
+      **Special Baggage Items and Prohibited Items**
       Special baggage items include items such as sports equipment, musical instruments, and fragile or high-value items. Sports equipment and oversized musical instruments require pre-declaration, additional handling fees, and proper packaging. The document also lists prohibited items—including explosives, flammable materials, weapons, and hazardous chemicals—which cannot be transported in either carry-on or checked baggage due to security regulations.
     questions_and_answers:
       - question: What types of items are classified as special baggage items?
@@ -47,7 +47,7 @@ seed_examples:
         answer: Prohibited items include explosives, flammable materials, weapons, and hazardous chemicals.
 
   - context: |
-      **Baggage Handling, Reporting, and Regulatory Compliance**  
+      **Baggage Handling, Reporting, and Regulatory Compliance**
       To ensure the safe handling of baggage, each checked bag receives a unique baggage tag, and all baggage undergoes rigorous screening including X-ray and explosive trace detection. In cases of delayed, damaged, or lost baggage, passengers are advised to report immediately at the baggage service counter, fill out a Property Irregularity Report (PIR), and retain all related documentation for claim processing. The document also outlines the importance of following national and international regulations, such as those from ICAO and IATA, to ensure safety and compliance.
     questions_and_answers:
       - question: How does 404 Airlines ensure the security of checked baggage?
