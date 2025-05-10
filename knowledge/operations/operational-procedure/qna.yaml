@@ -3,7 +3,7 @@ created_by: Cedric Clyburn <cclyburn@redhat.com>
 domain: 404 Airlines Knowledge & Policies
 seed_examples:
   - context: |
-      **Introduction and Overview**  
+      **Introduction and Overview**
       The 404 Airlines Operational Procedures Manual defines the standard operating procedures to ensure safety, efficiency, and compliance in flight operations. It serves as a comprehensive guide for flight crews, ground staff, and operational control personnel. The manual is organized into sections covering flight operations, ground operations, emergency procedures, communication protocols, security measures, and environmental policies.
     questions_and_answers:
       - question: What is the purpose of the 404 Airlines Operational Procedures Manual?
@@ -14,18 +14,18 @@ seed_examples:
         answer: It covers flight operations, ground operations, emergency procedures, communication protocols, security procedures, and environmental policies.
 
   - context: |
-      **Flight Operations**  
-      The manual details procedures across the flight phase: pre-flight, in-flight, and post-flight. During pre-flight, pilots review weather reports (METAR/TAF), file flight plans, inspect aircraft using a checklist, and conduct crew and passenger briefings. In-flight procedures involve regular monitoring of fuel consumption, engine performance, navigation via RNAV, and cabin surveillance. Post-flight requires completing a shutdown checklist, conducting a walk-around inspection, and holding a crew debriefing.
+      **Flight Operations**
+      The manual details procedures across the flight phase: pre‑flight, in‑flight, and post‑flight. During pre‑flight, pilots review weather reports (METAR/TAF), file flight plans, inspect aircraft using a checklist, and conduct crew and passenger briefings. In‑flight procedures involve regular monitoring of fuel consumption, engine performance, navigation via RNAV, and cabin surveillance. Post‑flight requires completing a shutdown checklist, conducting a walk‑around inspection, and holding a crew debriefing.
     questions_and_answers:
-      - question: What are the key steps in the pre-flight procedures?
-        answer: Pre-flight procedures include flight planning with current weather data, thorough aircraft inspections, and conducting crew and passenger briefings.
-      - question: How do pilots manage in-flight operations?
+      - question: What are the key steps in the pre‑flight procedures?
+        answer: Pre‑flight procedures include flight planning with current weather data, thorough aircraft inspections, and conducting crew and passenger briefings.
+      - question: How do pilots manage in‑flight operations?
         answer: Pilots monitor fuel consumption, engine performance, and navigation systems, while cabin crew perform regular cabin checks.
       - question: What activities are performed after a flight has landed?
-        answer: Post-flight activities include completing a shutdown checklist, performing a walk-around inspection, and holding a crew debriefing.
+        answer: Post‑flight activities include completing a shutdown checklist, performing a walk‑around inspection, and holding a crew debriefing.
 
   - context: |
-      **Ground Operations**  
+      **Ground Operations**
       Ground operations ensure safe and efficient handling of aircraft on the ramp. The manual emphasizes ramp safety through the mandatory use of personal protective equipment (PPE) and adherence to vehicle protocols. During refueling, teams verify fuel quality, employ proper grounding procedures, and maintain clear communication. Towing and parking are restricted to certified personnel using approved equipment and proper safety measures such as wheel chocks and parking brakes.
     questions_and_answers:
       - question: What safety measures are required during ramp operations?
@@ -36,7 +36,7 @@ seed_examples:
         answer: Only trained personnel are authorized to tow and park aircraft, and they must use approved tow bars, secure the aircraft with wheel chocks, and set parking brakes.
 
   - context: |
-      **Emergency Procedures**  
+      **Emergency Procedures**
       The manual provides clear protocols to manage emergencies such as engine failure, cabin decompression, onboard fire, and full aircraft evacuation. In the event of an engine failure, procedures differ based on whether the failure occurs before or after V1. For cabin decompression, immediate actions include donning oxygen masks and initiating an emergency descent. Fire suppression follows checklist protocols, and evacuation procedures require clear, decisive commands and ensuring that all passengers and crew are accounted for.
     questions_and_answers:
       - question: How should an engine failure be handled during takeoff?
@@ -47,7 +47,7 @@ seed_examples:
         answer: The crew must quickly identify the source, use the appropriate fire extinguishers, follow the fire suppression checklist, and declare an emergency to prepare for an immediate landing.
 
   - context: |
-      **Communication, Security, and Environmental Procedures**  
+      **Communication, Security, and Environmental Procedures**
       Communication protocols require the use of standard phraseology for clear interactions with ATC and between crew members. Security procedures involve passenger screening, strict baggage handling, and controlling access to restricted areas using badges and biometric systems. Environmental policies focus on fuel conservation through optimized flight planning and efficient waste management practices such as recycling and proper disposal of hazardous materials.
     questions_and_answers:
       - question: What is the importance of using standard phraseology in communication?
@@ -59,8 +59,9 @@ seed_examples:
 
 document_outline: |
   The 404 Airlines Operational Procedures Manual provides detailed guidelines for flight operations, ground operations, emergency procedures, communication protocols, security measures, and environmental policies. It is designed to ensure safe, efficient, and compliant airline operations.
+
 document:
   repo: https://github.com/rhai-code/404-airlines-data
   commit: 93d4fd5c97a6f03aef228e12f01b8183ae5d3673
   patterns:
-    - operational-procedure/*.md
+    - "operational-procedure/*.md"
